@@ -232,7 +232,7 @@ function loaderFn() {
                 $('#loader').fadeOut('slow', function () {
                     $(this).hide();
                 });
-                $('body').css('overflow-y', 'scroll !important');
+                $('body').css('overflow-y', 'scroll');
                 $('.navbar').addClass('animate__animated animate__fadeInDown');
                 $('.hero-header h1, .hero-header p, .hero-header a, .hero-header #myCanvas').addClass('animated zoomIn');
                 window.scrollTo(0, 0);
